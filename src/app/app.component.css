@@ -1,0 +1,4 @@
+/* Import de Tailwind + PrimeNG */
+@import "tailwindcss";
+@plugin "tailwindcss-primeui";
+
