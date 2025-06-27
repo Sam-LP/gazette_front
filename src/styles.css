@@ -1,6 +1,12 @@
 /* src/styles.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Tu peux avoir d'autres styles globaux ici en dessous, mais les @tailwind doivent être en haut */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
